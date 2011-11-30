@@ -1,0 +1,3 @@
+#INDENT#when #SELSTART#condition#SELEND#
+  #INSERTION#
+when<#?#>

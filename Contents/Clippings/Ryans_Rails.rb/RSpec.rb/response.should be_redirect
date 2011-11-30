@@ -1,0 +1,2 @@
+#INDENT#response.should be_redirect
+

@@ -1,0 +1,3 @@
+#INDENT#context "#SELSTART#a behavior #SELEND#" do
+  #INSERTION#
+end

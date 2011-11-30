@@ -1,0 +1,3 @@
+#INDENT#semantic_form_for(#SELSTART#my_object#SELEND#) do |f|
+	#INSERTION#
+do

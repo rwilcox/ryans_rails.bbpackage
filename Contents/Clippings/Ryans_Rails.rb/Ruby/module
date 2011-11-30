@@ -1,0 +1,3 @@
+#INDENT#module #SELSTART#ModuleName#SELEND#
+  #INSERTION#
+end

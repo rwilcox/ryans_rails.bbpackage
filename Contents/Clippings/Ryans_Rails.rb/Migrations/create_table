@@ -1,0 +1,4 @@
+#INDENT#create_table :#SELSTART#table_name#SELEND# do |t|
+  t<#?#>
+  t.timestamps
+end

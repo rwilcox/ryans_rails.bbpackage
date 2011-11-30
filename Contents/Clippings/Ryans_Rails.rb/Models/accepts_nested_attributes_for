@@ -1,0 +1,1 @@
+accepts_nested_attributes_for :#PLACEHOLDERSTART#:association#PLACEHOLDEREND#, #PLACEHOLDERSTART#:allow_destroy => true#PLACEHOLDEREND#

@@ -1,0 +1,1 @@
+#INDENT#delegate :<#method_name#>, :to => :<#attribute#>, :allow_nil => <#false#><#*, :prefix => :#>

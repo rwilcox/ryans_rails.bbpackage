@@ -1,0 +1,3 @@
+#INDENT#expect {
+  #INSERTION#
+}.to raise_error(#SELSTART#Exception#SELEND#)

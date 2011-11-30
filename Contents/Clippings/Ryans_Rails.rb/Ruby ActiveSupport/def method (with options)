@@ -1,0 +1,4 @@
+#INDENT#def #SELSTART#method_name#SELEND#(*args)
+  options = extract_options!(*args)
+  #INSERTION#
+end

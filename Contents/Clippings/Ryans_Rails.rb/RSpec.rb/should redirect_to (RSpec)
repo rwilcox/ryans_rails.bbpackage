@@ -1,0 +1,1 @@
+﻿#INDENT#response.should redirect_to( #SELSTART#a_path#SELEND# )

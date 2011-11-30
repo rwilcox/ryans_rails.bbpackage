@@ -1,0 +1,3 @@
+#INDENT#it "#SELSTART#assertion#SELEND#" do
+  <#?#>pending
+end

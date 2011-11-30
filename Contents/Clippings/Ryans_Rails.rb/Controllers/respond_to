@@ -1,0 +1,4 @@
+#INDENT#respond_to do |format|
+  format.html 
+  format.json { #INSERTION# }
+end

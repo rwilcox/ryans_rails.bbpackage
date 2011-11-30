@@ -1,0 +1,4 @@
+#INDENT#desc "#SELSTART#Fill me out or task will not show up in rake -T #SELEND#"
+task :#SELSTART#name#SELEND#, [:#SELSTART#first_arg#SELEND#] do |t, args| do
+  #INSERTION#
+end

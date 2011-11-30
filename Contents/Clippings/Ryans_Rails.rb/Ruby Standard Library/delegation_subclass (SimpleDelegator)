@@ -1,0 +1,6 @@
+#INDENT#class #SELSTART#class_name#SELEND# < SimpleDelegator
+	def initialize( object_to_delegate_to #SELSTART#, MOAR #SELEND# )
+	
+		super(object_to_delegate_to)
+	end
+end

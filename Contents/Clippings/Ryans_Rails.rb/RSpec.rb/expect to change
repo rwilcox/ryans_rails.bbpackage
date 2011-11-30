@@ -1,0 +1,3 @@
+#INDENT#lambda {
+  #INSERTION#
+}.should change(#SELSTART#ModelObject#SELEND#, #SELSTART#:count#SELEND#)

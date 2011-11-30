@@ -1,0 +1,3 @@
+#INDENT#before(:each) do
+  #INSERTION#
+end

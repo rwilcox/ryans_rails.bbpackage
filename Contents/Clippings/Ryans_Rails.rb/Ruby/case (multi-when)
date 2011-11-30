@@ -1,0 +1,4 @@
+#INDENT#
+case #SELSTART#obj#SELEND#
+when<#?#>
+end

@@ -1,0 +1,4 @@
+<#? Be kind, write an RDoc!#>
+class <#ClassName#> <#< Superclass#>
+  <#def#>
+end

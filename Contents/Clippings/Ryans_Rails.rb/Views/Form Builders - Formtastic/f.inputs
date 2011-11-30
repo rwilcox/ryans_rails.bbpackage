@@ -1,0 +1,3 @@
+#INDENT#t.inputs :name => "#SELSTART#Section Name#SELEND#" do
+  #INSERTION#
+end
