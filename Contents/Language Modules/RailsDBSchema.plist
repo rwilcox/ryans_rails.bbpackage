@@ -33,12 +33,9 @@
     <true />
     <key>BBLMSupportsTextCompletion</key>
     <true />
-    <key>BBLMSuffixMap</key>
+    <key>BBLMFileNamesToMatch</key>
     <array>
-      <dict>
-        <key>BBLMLanguageSuffix</key>
-        <string></string>
-      </dict>
+		<string>schema.rb</string>
     </array>
     <key>BBLMCanSpellCheckCodeRuns</key>
     <true />
