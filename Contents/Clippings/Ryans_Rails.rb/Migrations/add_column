@@ -1,0 +1,1 @@
+#INDENT#add_column :<#table_name#>, :<#field_name#>, :<#type#>
