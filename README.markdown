@@ -28,10 +28,19 @@ If you're used to TextMate's Ruby on Rails bundle many things will feel familiar
 
 I both love the snippets in TextMate, and can't remember syntax worth a darn, so this area probably has the most work done to it.
 
+### Philosophy behind some of the of the clippings ####
+
+Rails is opinionated, thus some of the clippings used have opinions behind them.
+
+#### `Controllers` -> `before_filter_get_object`####
+
+See [Michael Bleigh's blog post on this](http://www.intridea.com/blog/2011/6/07/conversations-controller-setter-pattern#) - and why he moved away from `helper_method` to `before_filter` for this.
+
+The private method you implement should just do the `find` operation for your object: non find operations (`index`, `new`, `create`) aren't repeating themselves enough in a single controller to unify.
 
 Navigating around: File to File
 -------------------------------
-There's a filter, the rails_emacs_modeline filter. This filter will create an emacs modeline, which (in addition to enforcing some Rails standard style guidelines on any editor that respects modelines) also will let you use BBEdit's Open Counterpart functionality to open the test/spec for the current file.
+There's a filter, the `rails_emacs_modeline` filter. This filter will create an emacs modeline, which (in addition to enforcing some Rails standard style guidelines on any editor that respects modelines) also will let you use BBEdit's Open Counterpart functionality to open the test/spec for the current file.
 
 Already in a spec or test? Open in Counterpart will open the correct implementation file then: be in model, controller, or whatever.
 
