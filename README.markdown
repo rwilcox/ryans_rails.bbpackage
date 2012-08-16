@@ -65,6 +65,22 @@ Refactoring
 -------------------------------
 There are also a number of tools to help refactor your code - for example, tools to help you split your code out into ActiveSupport::Concerns. The Text Filters involved will actually create a concern module for you (placing it in the same folder as the current document).
 
+### Notable Refactoring Tools ###
+
+#### Transformations -> Wrap Parans around parameters ####
+
+Sometimes you write a line of Ruby code like this:
+
+    method_call param_one, param_two
+    
+But later you refactor your code a bit and find yourself in a scenario like this:
+
+    outer_method_call method_call param_one, param_two
+    
+This pattern doesn't make any sense to Ruby (and it doesn't make any sense to humans either). You need to wrap this inner method call in params!
+
+With Wrap Parans Around Parameters you simply select `method_call param_one, param_two` and BBEdit outputs `method_call(param_one, param_two)`!
+
 Completion Data
 ------------------------------
 
