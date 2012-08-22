@@ -5,7 +5,7 @@
 # Thanks <https://github.com/bnadlerjr/vim-ruby-refactor>
 
 lines = []
-while line = $stdin.gets; lines << line.chomp!; end
+lines = ARGF.readlines()
 indent = "%#{lines.first.index(/[^\s]/)}s" % ''
 
 result = []
