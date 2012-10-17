@@ -1,0 +1,9 @@
+module <#MyConcern#>
+  extend ActiveSupport::Concern
+
+  module ClassMethods
+    def<##>
+  end
+
+  def<##>
+end
