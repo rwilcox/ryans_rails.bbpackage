@@ -88,6 +88,39 @@ This BBEdit Package includes completion data from both Ruby on Rails and Ruby St
 
 This completion data compliments your own completion data. I've included a script - "CTags for current project window" for you to easily create ctags data for your own project (assuming you don't have another solution).
 
+Available Methods For This Object
+------------------------------
+
+Ever started typing an object and thinking "what methods can I call on this domain object?"
+
+For example, you have typed `survey.` and think, "ok, what do I type next?"
+
+You have a Survey class, but app/models/survey.rb only tells you half the story, because the other half lives in schema.rb
+
+And then you have another quarter of the story that may exist in helper methods (who knows)
+
+And maybe you are trying to find the proper `*_path` method to use to go somewhere. So that's another 10% of the story.
+
+**OMG 130% IT'S SO HARD!!!!!**
+
+So you're flipping between two or more files.
+
+It **sucks**.
+
+Now: 
+
+  1. type the name of your variable: `survey` in the above story. You've probably used as a variable name anyway.
+  2. Select `availiable_methods_for_selection`
+  3. Look at the beautiful output!!
+
+Now this has some major limitations:
+
+  1. It uses ctags (so dynamic magic crap doesn't work). Also you'll need a reasonably up to date tag file.
+  2. It needs a cached copy of your rake routes output (`rake routes > tmp/routes.txt`)
+  3. It greps `db/schema.rb` for the tableized name and lists the fields. Thus this won't work well with STI entities.
+  4. It'll find stuff you're not looking for (crap from controller methods)... but who knows…. maybe you ARE looking for that stuff.
+
+But this is a "20% of the work that solves 80% of the problem" type solution.
 
 TODO
 ==============
