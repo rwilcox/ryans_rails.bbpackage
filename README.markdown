@@ -122,6 +122,25 @@ Now this has some major limitations:
 
 But this is a "20% of the work that solves 80% of the problem" type solution.
 
+Settings and Search Patterns to make your life easier
+================================
+
+This section covers ways to configure BBEdit to make your life easier as a Rails developer.
+
+
+Search Patterns
+----------------------
+
+### Transform `add_column`s to `remove_column`s ###
+
+Textmate's Rails bundle had this cool feature where it would automatically create the `down` migration steps for your `up` migration. Ryan's Rails has no such feature, but thankfully Rails now encapsulates all that for us with the `change` migration method in Rails 3.2+.
+
+However, sometimes you need to write a `remove_column`. Here's a Search and Replace pattern to do this:
+
+Search Pattern:  `add_column\W*(:\w+?),\W*(:\w+?),.+`
+
+Replace Pattern: `remove_column \1, \2`
+
 TODO
 ==============
 
