@@ -144,13 +144,12 @@ Replace Pattern: `remove_column \1, \2`
 TODO
 ==============
 
-I want to replicate TextMate's Go To File functionality - being able to go to more than just the test/spec (and back).
 
-Likewise, the completion data is useful, most of the time. I'd like to improve that.
-
-More clippings would be helpful too.
-
-Because of my setup, I don't use scripts that let you fire off rake tasks from your editor, but I understand why should people would want that. I'll leave that up to someone else to implement.
+- [TODO]: If I'm in an action I want to go to the view file associated with this
+- [TODO]: If I have a `render partial:` selected I want to navigate to that partial file
+- [TODO]: Likewise, the completion data is useful, most of the time. I'd like to improve that.
+- [TODO]: More clippings would be helpful too.
+- [TODO]: Because of my setup, I don't use scripts that let you fire off rake tasks from your editor, but I understand why should people would want that. I'll leave that up to someone else to implement.
 
 Installation
 ============
