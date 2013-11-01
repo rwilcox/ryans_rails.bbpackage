@@ -1,7 +1,5 @@
 #!/bin/sh
 
-#!/usr/bin/env sh
-
 BASE_FOLDER=`dirname "$0"`
 SUPPORT_FOLDER="$BASE_FOLDER/../../SharedSupport/"
 
