@@ -2,7 +2,7 @@
 
 import os, re, sys
 
-shared_support_path =  os.path.realpath(   os.path.join(  os.path.dirname( os.path.realpath(__file__) ), "..", "..", "SharedSupport"   )   )
+shared_support_path =  os.path.realpath(   os.path.join(  os.path.dirname( os.path.realpath(__file__) ), "..", "..", "..", "SharedSupport"   )   )
 sys.path.append( shared_support_path )
 
 import list_statements_matching
